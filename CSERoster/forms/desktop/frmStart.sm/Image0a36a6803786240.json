@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "64px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb54f799ae48460395f99d32c977ebfe",
+    "_src_": "login_account.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "64px"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "desktop",
+        "formID": "frmStart",
+        "platform": "desktopweb",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "Image0a36a6803786240",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "ca7916d96a24413e8381f1173b4d9a12",
+    "name": "kony.ui.Image2",
+    "parent": "FlexContainer0g8b92826e29041",
+    "pf": "frmStart",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

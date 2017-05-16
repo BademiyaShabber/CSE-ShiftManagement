@@ -1,0 +1,21 @@
+{
+    "AS_AppEvents_eb75b66ddc3043ccabdb97b8cccc2654": {
+        "id": "AS_AppEvents_eb75b66ddc3043ccabdb97b8cccc2654",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e15745c9ccd04fd886c56dca36c0d83c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addExternalJS",
+            "display": "addExternalJS",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

@@ -1,0 +1,244 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "Label0e989b256c1214a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3:00 PM"
+            },
+            "imgUser": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "username.png"
+            },
+            "lblRowUserDesg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MADP-Engineer"
+            },
+            "lblRowUserName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Employee Name"
+            },
+            "lblRowUserShift": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "S1"
+            },
+            "lblSSTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "6:00 AM"
+            },
+            "lblShiftEndTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shift End Time"
+            },
+            "lblShiftStartTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shift Start Time"
+            }
+        },
+        {
+            "Label0e989b256c1214a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "11:00 PM"
+            },
+            "imgUser": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "username.png"
+            },
+            "lblRowUserDesg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MF-Engineer"
+            },
+            "lblRowUserName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Employee Name"
+            },
+            "lblRowUserShift": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "S2"
+            },
+            "lblSSTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2:00 PM"
+            },
+            "lblShiftEndTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shift End Time"
+            },
+            "lblShiftStartTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shift Start Time"
+            }
+        },
+        {
+            "Label0e989b256c1214a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "7:00 AM"
+            },
+            "imgUser": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "username.png"
+            },
+            "lblRowUserDesg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MF-Lead"
+            },
+            "lblRowUserName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Employee Name"
+            },
+            "lblRowUserShift": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "S3"
+            },
+            "lblSSTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10:00 PM"
+            },
+            "lblShiftEndTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shift End Time"
+            },
+            "lblShiftStartTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shift Start Time"
+            }
+        },
+        {
+            "Label0e989b256c1214a": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "6:00 PM"
+            },
+            "imgUser": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "username.png"
+            },
+            "lblRowUserDesg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MADP-Lead"
+            },
+            "lblRowUserName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Employee Name"
+            },
+            "lblRowUserShift": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "G"
+            },
+            "lblSSTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "9:00 AM"
+            },
+            "lblShiftEndTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shift End Time"
+            },
+            "lblShiftStartTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Shift Start Time"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "Segment0f22247a7217043",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "af9ada9248794869870b1e08e38d8184",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "FlexScrollContainer0h0c790cc322443",
+    "pf": "frmDashboard",
+    "retainselection": false,
+    "rowTemplateId": "d538c08a935f43d797989637d6b767b5",
+    "rowcounter": 3,
+    "rowfocusskin": "sc56979e66b64cb1a74644479a1ffd3e",
+    "rowskin": "se6d8910b8784b64b0d8a371fe136c95",
+    "rowtemplate": "flxRowDay",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sd13d501339f45879b0cdd9acf089613",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "Label0e989b256c1214a": "Label0e989b256c1214a",
+        "flxRowDay": "flxRowDay",
+        "flxShiftDetails": "flxShiftDetails",
+        "flxUserDetails": "flxUserDetails",
+        "flxUserImage": "flxUserImage",
+        "imgUser": "imgUser",
+        "lblRowUserDesg": "lblRowUserDesg",
+        "lblRowUserName": "lblRowUserName",
+        "lblRowUserShift": "lblRowUserShift",
+        "lblSSTime": "lblSSTime",
+        "lblShiftEndTime": "lblShiftEndTime",
+        "lblShiftStartTime": "lblShiftStartTime"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_skin_": "sc9b4ad052514dc297639ab64a4f037a",
+    "_text_": "Weekly",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s587493a9f244e938b609a96bb20ab0e",
+    "id": "Button0a825184af5ff48",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b1bf511a5e224486ad3b462212e18de8",
+    "name": "kony.ui.Button",
+    "parent": "flxShiftOption",
+    "pf": "frmDashboard",
+    "wType": "Button",
+    "zindex": 1
+}

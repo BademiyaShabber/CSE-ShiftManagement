@@ -1,0 +1,47 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sdc7f0cf3d8a479e8ea3525762170b99",
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxUserImage",
+        "flxUserDetails",
+        "flxShiftDetails"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxRowDay",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "f52e921e19ca4a33be4a65c940916a33",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "rowDayTemplate",
+    "pf": "rowDayTemplate",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 4
+}

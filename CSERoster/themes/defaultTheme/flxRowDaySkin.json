@@ -1,0 +1,217 @@
+{
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "c2b6c2ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 1,
+  "desktopweb": {
+    "bottom_left_border_color": "c2b6c2ff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "c2b6c2ff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 1,
+    "isForked": true,
+    "shadow": {
+      "br": 1,
+      "color": "000000",
+      "inner": false,
+      "nm": 0,
+      "x": 1,
+      "y": 1
+    },
+    "top_left_border_color": "c2b6c2ff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 1,
+    "top_right_border_color": "c2b6c2ff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 1
+  },
+  "ipad": {
+    "isForked": true,
+    "shadow": {
+      "br": 1,
+      "color": "000000",
+      "inner": false,
+      "nm": 0,
+      "x": 1,
+      "y": 1
+    }
+  },
+  "iphone": {
+    "isForked": true,
+    "shadow": {
+      "br": 1,
+      "color": "000000",
+      "inner": false,
+      "nm": 0,
+      "x": 1,
+      "y": 1
+    }
+  },
+  "isDefaultSkin": false,
+  "kuid": "sdc7f0cf3d8a479e8ea3525762170b99",
+  "spaan": {
+    "bottom_left_border_color": "c2b6c2ff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "c2b6c2ff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 1,
+    "isForked": true,
+    "shadow": {
+      "br": 1,
+      "color": "000000",
+      "inner": false,
+      "nm": 0,
+      "x": 1,
+      "y": 1
+    },
+    "top_left_border_color": "c2b6c2ff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 1,
+    "top_right_border_color": "c2b6c2ff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 1
+  },
+  "spaandroidtablet": {
+    "bottom_left_border_color": "c2b6c2ff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "c2b6c2ff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 1,
+    "isForked": true,
+    "shadow": {
+      "br": 1,
+      "color": "000000",
+      "inner": false,
+      "nm": 0,
+      "x": 1,
+      "y": 1
+    },
+    "top_left_border_color": "c2b6c2ff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 1,
+    "top_right_border_color": "c2b6c2ff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 1
+  },
+  "spabb": {
+    "bottom_left_border_color": "c2b6c2ff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "c2b6c2ff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 1,
+    "isForked": true,
+    "shadow": {
+      "br": 1,
+      "color": "000000",
+      "inner": false,
+      "nm": 0,
+      "x": 1,
+      "y": 1
+    },
+    "top_left_border_color": "c2b6c2ff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 1,
+    "top_right_border_color": "c2b6c2ff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 1
+  },
+  "spaip": {
+    "bottom_left_border_color": "c2b6c2ff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "c2b6c2ff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 1,
+    "isForked": true,
+    "shadow": {
+      "br": 1,
+      "color": "000000",
+      "inner": false,
+      "nm": 0,
+      "x": 1,
+      "y": 1
+    },
+    "top_left_border_color": "c2b6c2ff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 1,
+    "top_right_border_color": "c2b6c2ff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 1
+  },
+  "spaipad": {
+    "bottom_left_border_color": "c2b6c2ff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "c2b6c2ff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 1,
+    "isForked": true,
+    "shadow": {
+      "br": 1,
+      "color": "000000",
+      "inner": false,
+      "nm": 0,
+      "x": 1,
+      "y": 1
+    },
+    "top_left_border_color": "c2b6c2ff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 1,
+    "top_right_border_color": "c2b6c2ff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 1
+  },
+  "spawindowstablet": {
+    "bottom_left_border_color": "c2b6c2ff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "c2b6c2ff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 1,
+    "isForked": true,
+    "shadow": {
+      "br": 1,
+      "color": "000000",
+      "inner": false,
+      "nm": 0,
+      "x": 1,
+      "y": 1
+    },
+    "top_left_border_color": "c2b6c2ff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 1,
+    "top_right_border_color": "c2b6c2ff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 1
+  },
+  "spawinphone8": {
+    "bottom_left_border_color": "c2b6c2ff",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 1,
+    "bottom_right_border_color": "c2b6c2ff",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 1,
+    "isForked": true,
+    "shadow": {
+      "br": 1,
+      "color": "000000",
+      "inner": false,
+      "nm": 0,
+      "x": 1,
+      "y": 1
+    },
+    "top_left_border_color": "c2b6c2ff",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 1,
+    "top_right_border_color": "c2b6c2ff",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 1
+  },
+  "wType": "FlexContainer"
+}

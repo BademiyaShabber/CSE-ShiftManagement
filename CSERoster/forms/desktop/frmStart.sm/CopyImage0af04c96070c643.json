@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb54f799ae48460395f99d32c977ebfe",
+    "_src_": "password.png",
+    "_top_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "desktop",
+        "formID": "frmStart",
+        "platform": "desktopweb",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "CopyImage0af04c96070c643",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "c21974ce196e4ba1ac26d5e398aa6c8f",
+    "name": "kony.ui.Image2",
+    "parent": "flxLoginIcon",
+    "pf": "frmStart",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

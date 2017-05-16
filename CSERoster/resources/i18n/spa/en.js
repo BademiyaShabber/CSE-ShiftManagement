@@ -1,0 +1,1 @@
+var i18nObject = {"menu_open":"U+2631","menu_close":"U+2718"}

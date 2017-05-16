@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        25,
+        0,
+        0
+    ],
+    "_skin_": "s33cdae035924fea86e8b8c1957b94e0",
+    "_text_": "<div id=\"clock\"></div>",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {},
+    "id": "rtClock",
+    "info": null,
+    "isvisible": true,
+    "kiosk": {
+        "contentAlignment": 5
+    },
+    "kuid": "a01e13a7be524770a41407175277062c",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "flxCalendar",
+    "pf": "frmDashboard",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

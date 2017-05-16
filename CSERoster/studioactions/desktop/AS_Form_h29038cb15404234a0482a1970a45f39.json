@@ -1,0 +1,24 @@
+{
+    "AS_Form_h29038cb15404234a0482a1970a45f39": {
+        "id": "AS_Form_h29038cb15404234a0482a1970a45f39",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmStart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a46807b8e7a645e48b178415864164fa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bfef576eb4f3430db9e7e0f9313818b6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "YUI().use('calendar', 'datatype-date', 'cssbutton',  function(Y) {\n\n    // Create a new instance of calendar, placing it in\n    // #mycalendar container, setting its width to 340px,\n    // the flags for showing previous and next month's\n    // dates in available empty cells to true, and setting\n    // the date to today's date.\n    var calendar = new Y.Calendar({\n      contentBox: \"#mycalendar\",\n      width:'340px',\n      showPrevMonth: true,\n      showNextMonth: true,\n      date: new Date()}).render();\n\n    // Get a reference to Y.DataType.Date\n    var dtdate = Y.DataType.Date;\n\n    // Listen to calendar's selectionChange event.\n    calendar.on(\"selectionChange\", function (ev) {\n\n      // Get the date from the list of selected\n      // dates returned with the event (since only\n      // single selection is enabled by default,\n      // we expect there to be only one date)\n      var newDate = ev.newSelection[0];\n\n      // Format the date and output it to a DOM\n      // element.\n      Y.one(\"#selecteddate\").setHTML(dtdate.format(newDate));\n    });\n\n\n    // When the 'Show Previous Month' link is clicked,\n    // modify the showPrevMonth property to show or hide\n    // previous month's dates\n    Y.one(\"#togglePrevMonth\").on('click', function (ev) {\n      ev.preventDefault();\n      calendar.set('showPrevMonth', !(calendar.get(\"showPrevMonth\")));\n    });\n\n    // When the 'Show Next Month' link is clicked,\n    // modify the showNextMonth property to show or hide\n    // next month's dates\n    Y.one(\"#toggleNextMonth\").on('click', function (ev) {\n      ev.preventDefault();\n      calendar.set('showNextMonth', !(calendar.get(\"showNextMonth\")));\n    });\n});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

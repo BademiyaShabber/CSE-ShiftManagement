@@ -1,0 +1,39 @@
+{
+    "AS_Form_h0978eb921bc4b0587a49d7467736aec": {
+        "id": "AS_Form_h0978eb921bc4b0587a49d7467736aec",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c8014d0c69e4460abfc3ab61ef0bfe6c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__efb7d3344e0646fab77a23cbe35084e3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var selectedDate=\"\";\nYUI().use('calendar', 'datatype-date', 'cssbutton',  function(Y) {\n\n    // Create a new instance of calendar, placing it in\n    // #mycalendar container, setting its width to 340px,\n    // the flags for showing previous and next month's\n    // dates in available empty cells to true, and setting\n    // the date to today's date.\n    var calendar = new Y.Calendar({\n      contentBox: \"#mycalendar\",\n      width:'340px',\n      showPrevMonth: true,\n      showNextMonth: true,\n      date: new Date()}).render();\n\n    // Get a reference to Y.DataType.Date\n    var dtdate = Y.DataType.Date;\n\n    // Listen to calendar's selectionChange event.\n    calendar.on(\"selectionChange\", function (ev) {\n\n      // Get the date from the list of selected\n      // dates returned with the event (since only\n      // single selection is enabled by default,\n      // we expect there to be only one date)\n      var newDate = ev.newSelection[0];\n\n      // Format the date and output it to a DOM\n      // element.\n      selectedDate=dtdate.format(newDate);\n      kony.print(\"Selected Date:\"+selectedDate);\n    });\n\n});\n\n",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___e6da67244eb04e84a0bdf8d8ef0e099e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clock",
+            "display": "clock",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }, {
+            "id": "ADD_SNIPPET__jef7c4de111643028709b4f103eb3095",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var segData=[\n{\"Label0e989b256c1214a\":\"3:00 PM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MADP-Engineer\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"S1\",\"lblSSTime\":\"6:00 AM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"},{\"Label0e989b256c1214a\":\"11:00 PM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MF-Engineer\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"S2\",\"lblSSTime\":\"2:00 PM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"},{\"Label0e989b256c1214a\":\"7:00 AM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MF-Lead\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"S3\",\"lblSSTime\":\"10:00 PM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"},{\"Label0e989b256c1214a\":\"6:00 PM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MADP-Lead\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"G\",\"lblSSTime\":\"9:00 AM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"},\n{\"Label0e989b256c1214a\":\"3:00 PM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MADP-Engineer\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"S1\",\"lblSSTime\":\"6:00 AM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"},{\"Label0e989b256c1214a\":\"11:00 PM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MF-Engineer\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"S2\",\"lblSSTime\":\"2:00 PM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"},{\"Label0e989b256c1214a\":\"7:00 AM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MF-Lead\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"S3\",\"lblSSTime\":\"10:00 PM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"},{\"Label0e989b256c1214a\":\"6:00 PM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MADP-Lead\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"G\",\"lblSSTime\":\"9:00 AM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"},\n{\"Label0e989b256c1214a\":\"3:00 PM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MADP-Engineer\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"S1\",\"lblSSTime\":\"6:00 AM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"},{\"Label0e989b256c1214a\":\"11:00 PM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MF-Engineer\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"S2\",\"lblSSTime\":\"2:00 PM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"},{\"Label0e989b256c1214a\":\"7:00 AM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MF-Lead\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"S3\",\"lblSSTime\":\"10:00 PM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"},{\"Label0e989b256c1214a\":\"6:00 PM\",\"imgUser\":\"username.png\",\"lblRowUserDesg\":\"MADP-Lead\",\"lblRowUserName\":\"Employee Name\",\"lblRowUserShift\":\"G\",\"lblSSTime\":\"9:00 AM\",\"lblShiftEndTime\":\"Shift End Time\",\"lblShiftStartTime\":\"Shift Start Time\"}\n];\nfrmDashboard.Segment0f22247a7217043.setData(segData);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
